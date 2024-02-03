@@ -16,7 +16,7 @@ DEBUG = False
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 SECURE_SSL_REDIRECT = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['limotrack.up.railway.app']
 
 
 # Application definition
@@ -127,3 +127,5 @@ TAILWIND_APP_NAME = 'limo_tailwind'
 INTERNAL_IPS = [
     "127.0.0.1",
 ]
+
+CSRF_TRUSTED_ORIGINS = ["https://limotrack.up.railway.app/"]
