@@ -7,12 +7,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcom to Limo.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     {% tailwind_css %}
 </head>
 <body>
     <div class="flex justify-center items-center" style="margin-top: 160px;">
-        <div class="ml-5 mr-5 px-5 bg-primary mx-auto rounded-[5px] w-full max-w-md py-8">
-            <h2 class="text-center justify-center font-barlow font-semibold text-cream text-xl mb-5 mt-5">
+        <div class="ml-5 mr-5 px-5 bg-blue-50 mx-auto rounded-[5px] w-full max-w-md py-8">
+            <h2 class="text-center justify-center font-barlow font-semibold text-xl mb-5 mt-5">
                 LIMOTRACK
             </h2>
             {% if messages %}
@@ -55,7 +56,7 @@
             <div class="mt-5">
                 <a href="{% url 'driver_page' %}">
                     <button type="submit" id="signinButton"
-                        class="w-full text-xl text-cream font-barlow bg-secondary hover:bg-darkcream hover:text-primary focus:ring-4 focus:outline-none focus:ring-primary font-semibold rounded-[5px] px-4 py-2 text-center mr-3 md:mr-0">
+                        class="w-full text-xl text-white font-barlow bg-black hover:bg-darkcream focus:ring-4 focus:outline-none focus:ring-primary font-semibold rounded-[5px] px-4 py-2 text-center mr-3 md:mr-0">
                         <span id="signinText">Driver</span>
                     </button>
                 </a>

@@ -16,7 +16,7 @@ DEBUG = False
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 SECURE_SSL_REDIRECT = True
 
-ALLOWED_HOSTS = ['limotrack.up.railway.app']
+ALLOWED_HOSTS = ['limotrack.up.railway.app', '127.0.0.1']
 
 
 # Application definition
