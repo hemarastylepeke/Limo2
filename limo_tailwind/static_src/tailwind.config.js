@@ -47,6 +47,7 @@ module.exports = {
                 primary: "#E0F2F1",
                 secondary: "#F4AD6B",
                 reds: "#F47D7D",
+                black_color: "#1E1E1E",
             },
             fontFamily: {
                 'barlow': ["Poppins", "sans-serif"],
